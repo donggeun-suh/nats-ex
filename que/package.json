@@ -1,0 +1,18 @@
+{
+  "name": "que",
+  "version": "1.0.0",
+  "description": "",
+  "main": "queue.js",
+  "type": "module",
+  "scripts": {
+    "start-queue": "nodemon queue.js",
+    "start-req": "nodemon req.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nats": "^2.11.0",
+    "nodemon": "^2.0.20"
+  }
+}
